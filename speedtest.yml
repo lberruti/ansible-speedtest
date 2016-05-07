@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  connection: local
+  gather_facts: false
+  roles:
+    - role: role_1
+    - role: role_2
+  tasks:
+    - include: roles/role_1/tasks/speedtest.yml
+      tags: task_1

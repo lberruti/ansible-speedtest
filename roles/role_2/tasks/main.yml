@@ -1,0 +1,3 @@
+---
+- include: speedtest.yml
+  tags: role_2

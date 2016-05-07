@@ -1,0 +1,11 @@
+---
+- name: echo 1
+  command: echo 1
+- name: echo 2
+  command: echo 2
+- name: echo 3
+  command: echo 3
+- name: echo 4
+  command: echo 4
+- name: echo 5
+  command: echo 5
